@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_main"
+            android:icon="@mipmap/ic_menu"
+            android:title="@string/calculators"
+            />
+        <item android:id="@+id/nav_appa"
+              android:icon="@drawable/appa"
+              android:title="@string/appa"
+             />
+        <item android:id="@+id/nav_property"
+              android:icon="@drawable/prop"
+              android:title="@string/guyq" />
+
+        <item android:id="@+id/nav_tech"
+            android:icon="@drawable/tech"
+            android:title="@string/tech" />
+
+        <item android:id="@+id/nav_co"
+            android:icon="@drawable/co"
+            android:title="@string/co" />
+    </group>
+
+    <item android:title="@string/info">
+        <menu>
+            <item android:id="@+id/manual"
+                  android:icon="@drawable/manual"
+                  android:title="@string/manual" />
+            <item android:id="@+id/links"
+                  android:icon="@drawable/link"
+                  android:title="@string/links" />
+            <item android:id="@+id/about"
+                android:icon="@drawable/about"
+                android:title="@string/about" />
+        </menu>
+    </item>
+</menu>

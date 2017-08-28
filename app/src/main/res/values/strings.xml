@@ -1,0 +1,395 @@
+<resources>
+    <string name="appa">ԱՊՊԱ</string>
+    <string name="guyq">ՏՄ ԳՈՒՅՔԱՀԱՐԿ</string>
+
+    <string name="app_name">ՀԱՇՎԻՉ</string>
+
+    <string name="title_activity_property">ՏՄ գույքահարկի հաշվիչ</string>
+    <string name="title_activity_appa">ԱՊՊԱ հաշվիչ</string>
+
+    <string name="ProdDate">Թողարկման տարեթիվ</string>
+
+    <string name="info">Տեղեկատվություն</string>
+    <string name="manual">Օգտագործման ձև</string>
+    <string name="links">Հղումներ</string>
+    <string name="about">Հավելվածի մասին</string>
+
+    <string name="alert">Մուտքագրեք շարժիչի հզորությունը</string>>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="CarType">ԱՄ տեսակ</string>
+    <string name="TransType">ՏՄ տեսակ</string>
+    <string name="CarUseType">Օգտագործման նպատակ</string>
+    <string name="CarPower">Շարժիչի հզորություն (ձիաուժ)</string>
+    <string name="CarPowers">Շարժիչի հզորություն</string>
+    <string name="CarTrailer">Կցորդի առկայություն</string>
+    <string name="Driver">Վարորդի տարիք/վարորդական ստաժ</string>
+    <string name="DriverBM">Բոնուս-Մալուսի դաս</string>
+    <string name="Time">Գործողության ժամկետ</string>
+    <string name="calc">Հաշվել</string>
+    <string name="dram">դր.</string>
+    <string name="zeroDram">0 դր.</string>
+    <string name="Calculate">Հաշվել</string>
+
+    <string-array name="power">
+        <item>Մինչև 80</item>
+        <item>81-ից 140</item>
+        <item>141-ից 230</item>
+        <item>231-ից ավել</item>
+    </string-array>
+
+    <string-array name="trailer">
+        <item>Առանց կցորդի</item>
+        <item>Կցորդով</item>
+    </string-array>
+
+    <string-array name="taxBase">
+        <item>Ձիաուժ</item>
+        <item>Կիլովատ</item>
+    </string-array>
+
+    <string-array name="carType_spinner">
+        <item>Մարդատար/Միկրոավտոբուս</item>
+        <item>Բեռնատար</item>
+        <item>Մոտոտրանսպորտ</item>
+        <item>Ավտոբուս/Տրոլեյբուս</item>
+        <item>Այլ (տրակտոր և այլն)</item>
+    </string-array>
+
+    <string-array name="driver_sniper">
+        <item>23 և ավելի / 3 և ավելի</item>
+        <item>23 և ավելի / մինչև 3</item>
+        <item>Մինչև 23 / 3 և ավելի</item>
+        <item>Մինչև 23 / մինչև 3</item>
+        <item>Անսահմանափակ</item>
+    </string-array>
+
+    <string-array name="carUseType_sniper">
+        <item>Անձնական</item>
+        <item>Ծառայողական/Առևտրային</item>
+        <item>Տաքսի/Վարձակալություն</item>
+        <item>Հանրային տրանսպորտ</item>
+        <item>Այլ</item>
+    </string-array>
+
+    <string-array name="carUseTypeN_sniper">
+        <item>Անձնական</item>
+        <item>Ծառայողական/Առևտրային</item>
+        <item>Տաքսի/Վարձակալություն</item>
+        <item>Հանրային տրանսպորտ</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>1 տարի</item>
+        <item>11 ամիս</item>
+        <item>10 ամիս</item>
+        <item>9 ամիս</item>
+        <item>8 ամիս</item>
+        <item>7 ամիս</item>
+        <item>6 ամիս</item>
+        <item>5 ամիս</item>
+        <item>4 ամիս</item>
+        <item>3 ամիս</item>
+        <item>2 ամիս</item>
+        <item>15 օրից մինչև 1 ամիս</item>
+        <item>10 օրից մինչև 15 օր</item>
+        <item>10 օր</item>
+    </string-array>
+
+    <string-array name="bm">
+        <item>Դաս 1 (բոնուս 50%)</item>
+        <item>Դաս 2 (բոնուս 35%)</item>
+        <item>Դաս 3 (բոնուս 25%)</item>
+        <item>Դաս 4 (բոնուս 18%)</item>
+        <item>Դաս 5 (բոնուս 15%)</item>
+        <item>Դաս 6 (բոնուս 12%)</item>
+        <item>Դաս 7 (բոնուս 9%)</item>
+        <item>Դաս 8 (բոնուս 6%)</item>
+        <item>Դաս 9 (բոնուս 3%)</item>
+        <item>Դաս 10 (բազիսային դաս)</item>
+        <item>Դաս 11 (մալուս 4%)</item>
+        <item>Դաս 12 (մալուս 8%)</item>
+        <item>Դաս 13 (մալուս 12%)</item>
+        <item>Դաս 14 (մալուս 16%)</item>
+        <item>Դաս 15 (մալուս 20%)</item>
+        <item>Դաս 16 (մալուս 28%)</item>
+        <item>Դաս 17 (մալուս 36%)</item>
+        <item>Դաս 18 (մալուս 44%)</item>
+        <item>Դաս 19 (մալուս 52%)</item>
+        <item>Դաս 20 (մալուս 60%)</item>
+        <item>Դաս 21 (մալուս 80%)</item>
+        <item>Դաս 22 (մալուս 100%)</item>
+    </string-array>
+
+    <string-array name="bmNew">
+        <item>Հայտնի չէ</item>
+        <item>Դաս 1 (բոնուս 50%)</item>
+        <item>Դաս 2 (բոնուս 35%)</item>
+        <item>Դաս 3 (բոնուս 25%)</item>
+        <item>Դաս 4 (բոնուս 18%)</item>
+        <item>Դաս 5 (բոնուս 15%)</item>
+        <item>Դաս 6 (բոնուս 12%)</item>
+        <item>Դաս 7 (բոնուս 9%)</item>
+        <item>Դաս 8 (բոնուս 6%)</item>
+        <item>Դաս 9 (բոնուս 3%)</item>
+        <item>Դաս 10 (բազիսային դաս)</item>
+        <item>Դաս 11 (մալուս 104%)</item>
+        <item>Դաս 12 (մալուս 108%)</item>
+        <item>Դաս 13 (մալուս 112%)</item>
+        <item>Դաս 14 (մալուս 116%)</item>
+        <item>Դաս 15 (մալուս 124%)</item>
+        <item>Դաս 16 (մալուս 132%)</item>
+        <item>Դաս 17 (մալուս 140%)</item>
+        <item>Դաս 18 (մալուս 144%)</item>
+        <item>Դաս 19 (մալուս 200%)</item>
+        <item>Դաս 20 (մալուս 250%)</item>
+        <item>Դաս 21 (մալուս 250%)</item>
+        <item>Դաս 22 (մալուս 250%)</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008</item>
+        <item>2007</item>
+        <item>2006</item>
+        <item>2005</item>
+        <item>2004</item>
+        <item>2003</item>
+        <item>2002</item>
+        <item>2001</item>
+        <item>2000</item>
+        <item>1999</item>
+        <item>1998</item>
+        <item>1997</item>
+        <item>1996</item>
+        <item>1995</item>
+        <item>1994</item>
+        <item>1993</item>
+        <item>1992</item>
+        <item>1991</item>
+        <item>1990</item>
+        <item>1989</item>
+        <item>1988</item>
+        <item>1987</item>
+        <item>1986</item>
+        <item>1985</item>
+        <item>1984</item>
+        <item>1983</item>
+        <item>1982</item>
+        <item>1981</item>
+        <item>1980</item>
+        <item>1979</item>
+        <item>1978</item>
+        <item>1977</item>
+        <item>1976</item>
+        <item>1975</item>
+        <item>1974</item>
+        <item>1973</item>
+        <item>1972</item>
+        <item>1971</item>
+        <item>1970</item>
+        <item>1969</item>
+        <item>1968</item>
+        <item>1967</item>
+        <item>1966</item>
+        <item>1965</item>
+        <item>1964</item>
+        <item>1963</item>
+        <item>1962</item>
+        <item>1961</item>
+        <item>1960</item>
+        <item>1959</item>
+        <item>1958</item>
+        <item>1957</item>
+        <item>1956</item>
+        <item>1955</item>
+        <item>1954</item>
+        <item>1953</item>
+        <item>1952</item>
+        <item>1951</item>
+        <item>1950</item>
+        <item>1949</item>
+        <item>1948</item>
+        <item>1947</item>
+        <item>1946</item>
+        <item>1945</item>
+        <item>1944</item>
+        <item>1943</item>
+        <item>1942</item>
+        <item>1941</item>
+        <item>1940</item>
+        <item>1939</item>
+        <item>1938</item>
+        <item>1937</item>
+        <item>1936</item>
+        <item>1935</item>
+        <item>1934</item>
+        <item>1933</item>
+        <item>1932</item>
+        <item>1931</item>
+        <item>1930</item>
+        <item>1929</item>
+        <item>1928</item>
+        <item>1927</item>
+        <item>1926</item>
+        <item>1925</item>
+        <item>1924</item>
+        <item>1923</item>
+        <item>1922</item>
+        <item>1921</item>
+        <item>1920</item>
+        <item>1919</item>
+        <item>1918</item>
+        <item>1917</item>
+        <item>1916</item>
+        <item>1915</item>
+        <item>1914</item>
+        <item>1913</item>
+        <item>1912</item>
+        <item>1911</item>
+        <item>1910</item>
+        <item>1909</item>
+        <item>1908</item>
+        <item>1907</item>
+        <item>1906</item>
+        <item>1905</item>
+        <item>1904</item>
+        <item>1903</item>
+        <item>1902</item>
+        <item>1901</item>
+        <item>1900</item>
+    </string-array>
+
+    <string name="hp">ձիաուժ</string>
+    <string name="kw">կիլովատ</string>
+
+    <string-array name="propType_spinner">
+        <item>Մարդատար մինչեւ 10 նստատեղ</item>
+        <item>Մարդատար (10 և ավելի նստատեղ)</item>
+        <item>Բեռնատար</item>
+        <item>Մոտոցիկլ</item>
+        <item>Ջրային փոխադրամիջոց</item>
+        <item>Ձյունագնաց</item>
+        <item>Մոտոամենագնաց(քվադրոցիկլ)</item>
+        <item>Բեռնատար 20 և ավելի տարվա</item>
+    </string-array>
+
+   <string name="manualText">
+       <![CDATA[
+        <html>
+        <body style="text-align:justify;">
+        <p style="text-align:center;"><b>ԱՊՊԱ ՀԱՇՎԻՉ</b></p>
+        <b>1. ԱՄ տեսակ</b> (ավտոտրանսպորտային միջոցի տեսակ) - հաշվառման վկայագրում (տեխ.անձնագրում) նշված տեսակն է։
+        Եթե առկա է այնպիսի նշում, որ չեք գտնում հաշվիչում, ապա ընտրեք ամենառիսկայինը (օրինակ՝ բեռնաուղևորատարի դեպքում` բեռնատար)):</br>
+        <b>2. Օգտագործման նպատակ</b> - Մի քանի նպատակով օգտագործելու դեպքում ընտրեք ամենառիսկայինը
+        (օրինակ` անձնականի և առևտրայինի դեպքում` առևտրային)):</br>
+        <b>3. Շարժիչի հզորություն</b> - հաշվառման վկայագրում (տեխ.անձնագրում) նշված հզորությունը ձիաուժով:</br>
+        <b>4. Վարորդի տարիք/վարորդական ստաժ</b> - ընտրում եք վարորդի տարիքին և ստաժին համապատասխան
+        նշումը։ Ստաժը հաշվարկվում է վարորդական վկայականի տրման ամսաթվից։ Մի քանի վարորդների դեպքում ընտրեք ամենափոքր
+        տարիքով և ամենաքիչ ստաժով վարորդին (օրինակ` եթե առաջին վարորդը 45 տարեկան է և ունի 20 տարվա ստաժ,
+        երկրորդ վարորդը 22 տարեկան է և ունի 2 տարվա ստաժ, ապա պետք է ընտրել՝ «Մինչև 23/մինչև 3» նշումը):</br>
+        <b>5. Բոնուս-մալուսի դաս</b> - ձևավորվում է ապահովագրական պատմության հիման վրա։ Մի քանի անձանց դեպքում
+        ընտրում եք ամենաբարձր դասը։ Դասը չիմանալու դեպքում ընտրեք բազիսայինը (հետագայում կարող եք ճշտել ապահովագրական ընկերությունից):</br>
+        <b>6. Գործողության ժամկետ</b> - ընտրում եք պայմանագրի գործողության ժամկետը, 3 ամիսց պակաս ժամկետ կարող եք ընտրել
+        այն դեպքերում եթե ԱՄ-ն մուտք է գործել ՀՀ մաքսային օրենսգրքով նախատեսված «տարանցիկ փոխադրում» և «ժամանակավոր ներմուծում»
+        մաքսային ռեժիմներով, ինչպես նաև ավտոտրանսպորտային միջոցների առևտրով զբաղվող իրավաբանական անձանց և անհատ ձեռնարկատերերի
+        կողմից վաճառքի համար ՀՀ տարածք վարելու միջոցով ներմուծվող ավտոտրանսպորտային միջոցների դեպքում:<br>
+        <p style="text-align:center;"><b>ԳՈՒՅՔԱՀԱՐԿԻ ՀԱՇՎԻՉ</b><p>
+        <b>1. ՏՄ տեսակ</b> (տրանսպորտային միջոցի տեսակ) - հաշվառման վկայագրում (տեխ.անձնագրում) նշված տեսակն է (առավելագույն համապատասխան տեսակը):</br>
+        <b>2. Թողարկման տարեթիվ</b> - ընտրեք հաշվառման վկայագրում (տեխ.անձնագրում) նշված տարեթիվը:</br>
+        <b>3. Շարժիչի հզորություն</b> - ընտրեք շարժիչի հզորության չափման այն միավորը, որով ցանկանում եք հաշվել և լրացրեք հաշվառման վկայագրում
+        (տեխ.անձնագրում) նշված հզորությունը՝ ըստ Ձեր կողմից ընտրած չափման միավորի և սեղմեք «Հաշվել» կոճակը։</br>
+        <p style="text-align:center;"><b>ՏԵԽԶՆՆՈՒՄ</b><p>
+        &nbsp;Ընտրում եք հաշվիչում առկա ԱՄ տեսակներից մեկը, որը առավելագույնս համապատասխանում է Ձեր հաշվառման վկայագրում(տեխ․ անձնագրում) նշված տեսակին և իմանում եք տեխզննման վճարի չափը։<br>
+        <p style="text-align:center;"><b>ԲՆԱՊԱՀՊԱՆԱԿԱՆ (CO)</b><p>
+        &nbsp;Հաշվիչի երկու մասերում ընտրում եք Ձեր հաշվառման վկայագրում(տեխ․ անձնագրում) առկա նշումներին առավելագույնս համապատասխան նկարագորությունները և իմանում եք բնապահպանական վճարի չափը։
+        </body>
+        </html>
+        ]]>
+   </string>
+
+    <string name="linksText">
+        <![CDATA[<html><body style="text-align:justify;">
+        &nbsp;Ստորև նշված հղումները Ձեզ հնարավորություն կտան մանրամասն ծանոթանալ ԱՊՊԱ պայմանագրի, ՏՄ գույքահարկի, ԱՄ տեխզննման և բնապահպանական վճարների հետ կապված օրենսդրական հիմքերին.</br>
+        1. <a href="http://www.paap.am">Հայաստանի ավտոապահովագրողների բյուրո</a></br>
+        2. <a href="http://www.arlis.am/DocumentView.aspx?DocID=87212">ՀՀ օրենք գույքահարկի մասին (Հոդված 7)</a></br>
+        3. <a href="http://www.arlis.am/documentview.aspx?docid=69431">ՀՀ Կառավարությա որոշում N 690-Ն</a></br>
+        4. <a href="http://www.arlis.am/DocumentView.aspx?DocID=71905">ՀՀ օրենք բնապահպանական վճարների դրույքաչափերի մասին (Հոդված 2)</a>
+        </body>
+        </html>]]>
+    </string>
+
+    <string name="aboutText">
+        <![CDATA[<html><body style="text-align:justify;">
+        &nbsp;&nbsp;&nbspՀավելվածի նպատակն է օգտատերերին հնարավորություն ընձեռել ինքնուրույն հաշվելու ԱՊՊԱ պայմանագրի ապահովագրավճարը, ՏՄ գույքահարկը, ԱՄ տեխզննման և բնապահպանական վճարները։
+        </br>&emsp;&emsp;Շնորհակալություն հավելվածից օգտվելու համար։ Հուսով ենք՝ այն կլինի օգտակար։ Հավելվածի հետ կապված հարցերի,
+        առաջարկությունների, նկատված թերությունների կամ բողոքների դեպքում կարող եք ուղարկել հաղորդագրություն՝
+        <a href=""mailto:abrahamyan@outlook.com>սեղմելով այստեղ</a> կամ գրել մեկնաբանություններում։
+        </body></html>]]>
+    </string>
+
+    <!--  Տեխ զննում -->
+
+    <string name="tech">ՏԵԽԶՆՆՈՒՄ</string>
+    <string name="title_activity_tech">Տեխզննում</string>
+    <string name="car">Թեթև մարդատար</string>
+    <string name="minubus">Ավտոբուս (մինչև 17 նստատեղ ունեցող)</string>
+    <string name="bus">Ավտոբուս (17-ից ավել նստատեղ ունեցող)</string>
+    <string name="trkto35">Բեռնատար (մինչև 3.5տ զանգվածով)</string>
+    <string name="trkfrom35">Բեռնատար (3.5տ-ից ավել զանգվածով)</string>
+    <string name="trailer">Կցորդ և կիսակցորդ</string>
+    <string name="motomoped">Մոտոցիկլ և մոպեդ</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Բնապահպանական -->
+    <string name="co">ԲՆԱՊԱՀՊԱՆԱԿԱՆ(CO)</string>
+    <string name="title_activity_co">Բնապահպանական(CO)</string>
+    <string name="CarEngineType">ԱՄ շարժիչի տեսակ</string>
+
+    <string-array name="coCarType">
+        <item>1) Մինչև 8 նստատեղ ունեցող մարդատար(բացի վարորդից)</item>
+        <item>2) Մինչև 5 տոննա և 8-ից ավել նստատեղ ունեցող մարդատար(բացի վարորդից)</item>
+        <item>3) տոննան գերազանցող և 8-ից ավել նստատեղ ունեցող մարդատար(բացի վարորդից) </item>
+        <item>4) Բեռնատար՝ մինչև 3,5 տոննա</item>
+        <item>5) Բեռնատար՝ 3,5-ից  մինչև 12 տոննա</item>
+        <item>6) Բեռնատար ՝ 12 տոննայից ավել</item>
+    </string-array>
+
+    <string-array name="coCarEngine">
+        <item>1) Բենզ․ շարժիչով երկբաղադրիչ չեզոքացման համակարգ ունեցող ԱՄ</item>
+        <item>2) Մինչև 5 տոննա և 8-ից ավել նստատեղ ունեցող մարդատար(բացի վարորդից)</item>
+        <item>3) Բենզ․ շարժիչով չեզոքացման համակարգ չունեցող 1986 թ․ հոկտեմբերի 1-ից հետո արտադրված ԱՄ</item>
+        <item>4) Բենզ․ շարժիչով եռաբաղադրիչ չեզոքացման համակարգ ունեցող ԱՄ</item>
+        <item>5) Դիզ․ շարժիչով ԱՄ</item>
+        <item>6) Գազ․շարժիչով մինչև 2000թ․ հուլիսի 1-ը արտադրված ԱՄ</item>
+        <item>7) Գազ․ շարժիչով 2000թ․ հուլիսի 1-ից հետո արտադրված ԱՄ</item>
+    </string-array>
+
+    <string name="calculators">ՀԱՇՎԻՉՆԵՐ</string>
+    <string name="carSeats">Նստատեղերի քանակ</string>
+    <string name="appaNew">ԱՊՊԱ(ՆՈՐ)</string>
+
+    <string-array name="carSeats">
+        <item>Մինչև 17 (առանց վարորդի)</item>
+        <item>18 և ավել (առանց վարորդի)</item>
+    </string-array>
+
+    <string-array name="carTypeNew">
+        <item>Թեթև մարդատար</item>
+        <item>Բեռնատար(ուղևորաբեռնատար)</item>
+        <item>Ավտոբուս(միկրոավտոբուս), տրոյլեբուս</item>
+        <item>Մոտոտրանսպորտ</item>
+        <item>Այլ</item>
+    </string-array>
+</resources>
