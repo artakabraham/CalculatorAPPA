@@ -5,17 +5,21 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
 
 public class PropertyFragment extends Fragment {
 
@@ -43,6 +47,20 @@ public class PropertyFragment extends Fragment {
         Power = (TextView) propertyView.findViewById(R.id.Power);
         Calc  = (Button) propertyView.findViewById(R.id.calc);
         Sum = (TextView) propertyView.findViewById(R.id.sum);
+
+
+        //Populate years for spinner
+        ArrayList<String> years = new ArrayList<>();
+        int currentYear =  Calendar.getInstance().get(Calendar.YEAR);
+
+        for(int i = currentYear; i >= 1990; i--)
+            years.add(Integer.toString(i));
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(getActivity(),android.R.layout.simple_spinner_item,years);
+
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        ProdDate.setAdapter(adapter);
+
 
         AdapterView.OnItemSelectedListener myListener = new AdapterView.OnItemSelectedListener () {
             @Override
