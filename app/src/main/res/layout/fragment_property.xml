@@ -52,7 +52,6 @@
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:background="@drawable/spinner"
-            android:entries="@array/year"
             android:layout_marginTop="1dp"/>
 
 
@@ -91,7 +90,7 @@
                 android:gravity="center_horizontal"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                android:hint="ձիաուժ"
+                android:hint="@string/hp"
                 />
             <Button
                 android:layout_width="wrap_content"
