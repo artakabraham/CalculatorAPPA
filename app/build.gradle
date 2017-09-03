@@ -7,8 +7,8 @@ android {
     defaultConfig {
         applicationId "com.alsari.calculator"
         minSdkVersion 16
-        targetSdkVersion 23
-        versionCode 7
+        //targetSdkVersion 23
+        versionCode 8
         versionName "1.4"
     }
     buildTypes {
