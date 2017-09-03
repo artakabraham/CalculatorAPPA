@@ -5,7 +5,6 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -98,7 +97,7 @@ public class PropertyFragment extends Fragment {
 
                 // Հարկման բազա
                 if (taxBase_selected == 1) {
-                    CarPower = CarPower * 1.36;
+                    CarPower *= 1.36;
                 }
 
                 //Եթե ԱՄ տեսակը մինչև 10 նստատեղով մարդատար է
@@ -132,17 +131,17 @@ public class PropertyFragment extends Fragment {
 
                 //Ժամանակ
                 if(ProdDate_selected == 0 || ProdDate_selected == 1 || ProdDate_selected == 2 || ProdDate_selected == 3) {
-                    price = price * 1;} else
+                    price *= 1;} else
                 if(ProdDate_selected == 4){
-                    price = price * 0.9;} else
+                    price *= 0.9;} else
                 if (ProdDate_selected == 5){
-                    price = price * 0.8;} else
+                    price *= 0.8;} else
                 if (ProdDate_selected == 6){
-                    price = price * 0.7;} else
+                    price *= 0.7;} else
                 if (ProdDate_selected == 7){
-                    price = price * 0.6;}
+                    price *= 0.6;}
                 else {
-                    price = price * 0.5;}
+                    price *= 0.5;}
 
                 DecimalFormat df = new DecimalFormat("###,###,###");
 
